@@ -22,8 +22,9 @@ export default function AdminLogin() {
         return;
       }
 
+      // Store cookie/session automatically via your API
       alert("Login successful");
-      // redirect to admin dashboard later
+      // Optionally redirect to admin dashboard
     } catch (err) {
       setError("Server error");
     }
